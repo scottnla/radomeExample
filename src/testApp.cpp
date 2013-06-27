@@ -18,12 +18,12 @@ void radomeExample::setup(){
   startTime = ofGetElapsedTimeMillis();
   startTime *= 0.001;
 
-  	syphonOutput.setName("output");
+  	syphonOutput.setName("radome output");
     
 	syphonClient.setup();
     
-	syphonClient.setApplicationName("testapp");
-	syphonClient.setServerName("server");
+	syphonClient.setApplicationName("Arena");
+	syphonClient.setServerName("Composition");
 }
 
 //--------------------------------------------------------------
